@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Title -->
+  <title>Operar con Cookies</title>
+</head>
+<body>
+    <center>
+  <header>
+    <div id ="mensaje">
+      <p id = "estados"></p>
+    </div>
+
+    <h1>Bienvenido!!</h1>
+    
+  </header>
+  
+  <main>
+    <p><h2>Ingresa tus datos:</h2></p>
+  
+    <p></p>
+    <form action="crearSesion.php" method="POST">
+      Nombre:<input type="text" id = "nombre" name="nombre"><p>
+      User:<input type="text" id = "usuario" name="usuario"><p>
+        Contraseña:<input type="text" id = "password" name="password"><p>
+      <input id="contador" type="submit" value="Establecer Sesión">
+    </form>
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</center>
+  <noscript>Your browser don't support JavaScript!</noscript>
+  <script src="./scripts.js"></script>
+
+</body>
+</html>
+
+      
